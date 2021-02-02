@@ -16,7 +16,7 @@ To purchase all the books added to the cart Purchase button need to be clicked r
 Lastly, to see the register of the book store Display Register button needs to be pressed. If no book is sold yet, error dialogue will be displayed with register is empty message. Else, all the books sold will be displayed one after one in the text area with book name, purchased quantity, price per book, total charge and lastly total cost of all books and average cost per book sold by the book store.
 Exiting the program will display a thank you message.
 
-N.B: 
+**N.B:** 
 1. GUI of the program is designed in Intellij IDE. BookStoreManagementSystem.form has the form design and BookStoreManagementSystem.java has the source code of the GUI Form. Running the program in any other IDE may distort the GUI.
 2. bookNameField and quantityField are used for both Add Book and Add to cart operation. For example: for adding books to the system, book name, quantity and price will be taken, customerNameField will be ignored. Also, for adding books to the cart, book name, quantity and customer name will be taken, priceField will be ignored.
 3. All the necessary code to run program is stored in BookStoreManagementSystem.java class. Book.java class is created to store book information like book name, available quantity and price per book. Customer class is used to store customer name and book information like book name, purchased quantity and price per book. ArrayList data structure is used to store available books in the store, added to cart books and customer purchase information.
